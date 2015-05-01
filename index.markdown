@@ -114,8 +114,8 @@ Coming soon.
   <div class="caption"><a href="http://twitter.com/silverspoon">@silverspoon</a></div>
   </li>
   <li>
-  <img src="http://placehold.it/210x210">
-  <div class="caption"><a href="">@jose</a></div>
+  <img src="images/avatars/jos.jpeg">
+  <div class="caption"><a href="http://twitter.com/josmasflores">@josmasflores</a></div>
   </li>
   <li>
   <img src="images/avatars/aidanf.jpeg">
