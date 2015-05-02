@@ -108,7 +108,7 @@ Coming soon.
 <a name="team"></a>
 # Team
 
-<ul id="team" class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
   <li>
   <img src="images/avatars/silverspoon.jpeg">
   <div class="caption"><a href="http://twitter.com/silverspoon">@silverspoon</a></div>
