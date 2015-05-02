@@ -2,40 +2,44 @@
 layout: base
 ---
 
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name"><!-- Leaving this empty to remove the title --></li>
-        <li class="toggle-topbar menu-icon"><a href="#"><!-- Leaving this empty to remove 'Menu' --></a></li>
-      </ul>
-      <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#logistics">Logistics</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </section>
-    </nav>
-
+<div class="row">
+  <div class="large-10 medium-10 small-10 small-centered columns">
 
     <div class="row">
-      <div class="large-10 medium-10 small-10 small-centered columns">
-        <div class="row">
-          <div class="small-centered small-8 large-6 large-centred medium-6 medium-centred columns">
-            <img src="images/logo.png" id="logo"/>
-          </div>
-        </div>
-        <div class="row">
-            {{ content }}
-        </div>
+      <div class="contain-to-grid">
+        <nav class="top-bar" data-topbar role="navigation">
+          <ul class="title-area">
+            <li class="name"><!-- Leaving this empty to remove the title --></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><!-- Leaving this empty to remove 'Menu' --></a></li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
+              <li><a href="#logistics">Logistics</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </section>
+        </nav>
       </div>
     </div>
 
-    <hr/>
-    <div id="footer">
-      <a href="http://confcodeofconduct.com/">Code of Conduct</a> |
-      <a href="">Another footer link</a>
+    <div class="row">
+      <div class="small-centered small-8 large-6 large-centred medium-6 medium-centred columns">
+        <img src="images/logo.png" id="logo"/>
+      </div>
     </div>
-    <hr/>
+    <div class="row">
+        {{ content }}
+    </div>
+  </div>
+</div>
+
+<hr/>
+<div id="footer">
+  <a href="http://confcodeofconduct.com/">Code of Conduct</a> |
+  <a href="">Another footer link</a>
+</div>
+<hr/>

@@ -3,25 +3,25 @@ layout: default
 title: Function Kats Conference
 ---
 <a name="what"></a>
+<div class="panel">
+<h1 class="main-section">What is Functional Kats Conference</h1>
+Kats Conference is a Functional Programming conference that will take place in Dublin on September 12, 2015.<br><br>
 
-# What is Functional Kats Conference
+The main goal of the conference is to have a great time learning about Functional Programming.<br><br>
 
-Kats Conference is a Functional Programming conference that will take place in Dublin on September 12, 2015.
+A range of talks, lighting talks, and workshops will be organised on the day.<br><br>
 
-The main goal of the conference is to have a great time learning about Functional Programming.
+Kats Conference encourages local participation, so if you are in Ireland please submit a talk or workshop. While writing your proposal keep in mind that this is a day for learning, so focus on what the attendees (and also yourself) will learn from your talk.<br><br>
 
-A range of talks, lighting talks, and workshops will be organised on the day.
+We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.<br><br>
 
-Kats Conference encourages local participation, so if you are in Ireland please submit a talk or workshop. While writing your proposal keep in mind that this is a day for learning, so focus on what the attendees (and also yourself) will learn from your talk.
+If you're interested in sponsoring us please <a href="#contact">get in touch</a>.
 
-We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.
-
-If you're interested in sponsoring us please [get in touch](#contact).
-
+</div>
 <hr/>
 
 <a name="speakers"></a>
-<div class ="main-section">
+<div class="main-section">
 # Speakers
 </div>
 
@@ -66,7 +66,7 @@ If you're interested in sponsoring us please [get in touch](#contact).
 <hr/>
 
 <a name="schedule"></a>
-<div class ="main-section">
+<div class="main-section">
 # Schedule
 </div>
 
@@ -88,7 +88,7 @@ Coming soon.
 <hr/>
 
 <a name="sponsors"></a>
-<div class ="main-section">
+<div class="main-section">
 # Sponsors
 </div>
 
@@ -112,7 +112,7 @@ Coming soon.
 <hr/>
 
 <a name="team"></a>
-<div class ="main-section">
+<div class="main-section">
 
 # Team
 
@@ -136,7 +136,7 @@ Coming soon.
 <hr/>
 
 <a name="contact"></a>
-<div class ="main-section">
+<div class="main-section">
 
 # Contact
 
