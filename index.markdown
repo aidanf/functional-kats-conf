@@ -4,7 +4,6 @@ title: Function Kats Conference
 ---
 <a name="what"></a>
 <div class="panel">
-<h1 class="main-section">What is Functional Kats Conference</h1>
 Kats Conference is a Functional Programming conference that will take place in Dublin on September 12, 2015.<br><br>
 
 The main goal of the conference is to have a great time learning about Functional Programming.<br><br>
@@ -83,7 +82,27 @@ Coming soon.
 
 ### Map
 
+<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1">
+  <li>
+  <img src="http://placehold.it/750x500">
+  </li>
+</ul>
+
 ### Hotels
+
+<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
+  <li>
+  <img src="http://placehold.it/200x200">
+  <div class="caption">Hotel Option 1</div>
+  <p>Description for hotel 2 goes here and all that...</p>
+  </li>
+
+  <li>
+  <img src="http://placehold.it/200x200">
+  <div class="caption">Hotel Option 2</div>
+  <p>Description for hotel 2 goes here and all that...</p>
+  </li>
+</ul>
 
 <hr/>
 

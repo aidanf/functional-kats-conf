@@ -6,14 +6,14 @@ body {
 
 .top-bar {
   margin-bottom: 2em;
-  background-color: #fbeeca !important;
+  background-color: #FEF2D4 !important;
 }
 
 .top-bar-section ul li > a {
   color: #676454;
 }
 
-.top-bar section a {background-color:#fbeeca !important; }
+.top-bar section a {background-color:#FEF2D4 !important; }
 .top-bar section a:hover {background-color:#ae1b1f !important; }
 
 h1 {
