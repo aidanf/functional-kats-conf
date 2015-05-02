@@ -4,10 +4,17 @@ body {
     background: transparent;
 }
 
-.top-bar {margin-bottom: 2em; background-color:#1A9ADA !important; }
+.top-bar {
+  margin-bottom: 2em;
+  background-color: #fbeeca !important;
+}
 
-.top-bar section a {background-color:#1A9ADA !important; }
-.top-bar section a:hover {background-color:#0078A0 !important; }
+.top-bar-section ul li > a {
+  color: #676454;
+}
+
+.top-bar section a {background-color:#fbeeca !important; }
+.top-bar section a:hover {background-color:#ae1b1f !important; }
 
 h1 {
     margin:2em;
@@ -43,3 +50,7 @@ h3 {
       margin-right: auto;
      }
 .active{background:red}
+
+.main-section {
+  background-color:#fbeeca;
+}

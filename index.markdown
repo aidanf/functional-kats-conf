@@ -21,8 +21,9 @@ If you're interested in sponsoring us please [get in touch](#contact).
 <hr/>
 
 <a name="speakers"></a>
-
+<div class ="main-section">
 # Speakers
+</div>
 
 <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
   <li>
@@ -65,14 +66,18 @@ If you're interested in sponsoring us please [get in touch](#contact).
 <hr/>
 
 <a name="schedule"></a>
+<div class ="main-section">
 # Schedule
+</div>
 
 Coming soon.
 
 <hr/>
 
 <a name="logistics"></a>
+<div class ="main-section">
 # Logistics
+</div>
 
 ### Venue
 
@@ -83,7 +88,9 @@ Coming soon.
 <hr/>
 
 <a name="sponsors"></a>
+<div class ="main-section">
 # Sponsors
+</div>
 
 <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
   <li>
@@ -100,13 +107,16 @@ Coming soon.
   <img src="http://placehold.it/600x200">
   <div class="caption">Company Name</div>
   </li>
-
 </ul>
 
 <hr/>
 
 <a name="team"></a>
+<div class ="main-section">
+
 # Team
+
+</div>
 
 <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
   <li>
@@ -123,11 +133,14 @@ Coming soon.
   </li>
 </ul>
 
-
 <hr/>
 
 <a name="contact"></a>
+<div class ="main-section">
+
 # Contact
+
+</div>
 
 <div class="contact">
 <a href="#"><i class="fa fa-envelope"></i> <span id="my-email">please enable javascript to view</span></a><br/>
