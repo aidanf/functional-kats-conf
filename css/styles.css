@@ -2,6 +2,7 @@ html, body {  font-size: 18px; }
 
 body {
     background: transparent;
+    font-family: 'Fjord One', serif;
 }
 
 .top-bar {
