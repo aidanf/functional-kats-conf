@@ -4,7 +4,7 @@ title: Function Kats Conference
 ---
 <a name="what"></a>
 <div class="panel">
-Kats Conference is a Functional Programming conference that will take place in Dublin on September 12, 2015.<br>
+Kats Conference is a Functional Programming conference that will take place in Dublin on <b>September 12, 2015</b>.<br>
 
 The main goal of the conference is to have a great time learning about Functional Programming.<br>
 
@@ -22,43 +22,23 @@ If you're interested in sponsoring us please <a href="#contact">get in touch</a>
 # Speakers
 </div>
 
-<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+<ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-2">
   <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Jane Bloggs, Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  <img src="images/avatars/edwin-hp.jpg">
+  <div class="caption"><a href="https://twitter.com/edwinbrady">Edwin Brady</a>. Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/">Idris</a>.</div>
   </li>
   <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Jane Bloggs, Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-  </li>
-  <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Jane Bloggs, Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-  </li>
-  <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Jane Bloggs, Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-  </li>
-  <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Jane Bloggs, Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-  </li>
-  <li>
-  <img src="http://placehold.it/200x200">
+  <img src="http://placehold.it/200x147&text=You!">
+  <div class="caption">You? Our call for papers is currently open.</div>
   </li>
 </ul>
 
-### Call for papers
+<a name="cpf"></a>
+<div class="main-section">
+# Call for papers
+</div>
 
-
-### Important dates
-
-* Call for papers opens
-* Call for papers closes
-* Notification of acceptance
-* Registration opens
-* Early bird rate closes
-* Conference
+The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
 
 <hr/>
 
@@ -71,38 +51,6 @@ Coming soon.
 
 <hr/>
 
-<a name="logistics"></a>
-<div class ="main-section">
-# Logistics
-</div>
-
-### Venue
-
-### Map
-
-<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1">
-  <li>
-  <img src="http://placehold.it/750x500">
-  </li>
-</ul>
-
-### Hotels
-
-<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
-  <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Hotel Option 1</div>
-  <p>Description for hotel 2 goes here and all that...</p>
-  </li>
-
-  <li>
-  <img src="http://placehold.it/200x200">
-  <div class="caption">Hotel Option 2</div>
-  <p>Description for hotel 2 goes here and all that...</p>
-  </li>
-</ul>
-
-<hr/>
 
 <a name="sponsors"></a>
 <div class="main-section">
@@ -110,19 +58,10 @@ Coming soon.
 </div>
 
 <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
+<p>We're currently looking for sponsors. Please get in touch with one of the organizers if you're interested in sponsoring.</p>
   <li>
-  <img src="http://placehold.it/600x200">
-  <div class="caption">Company Name</div>
-  </li>
-
-  <li>
-  <img src="http://placehold.it/600x200">
-  <div class="caption">Company Name</div>
-  </li>
-
-  <li>
-  <img src="http://placehold.it/600x200">
-  <div class="caption">Company Name</div>
+  <img src="http://placehold.it/600x200&text=Sponsor+Us">
+  <div class="caption">Your Company Name here?</div>
   </li>
 </ul>
 
@@ -131,7 +70,7 @@ Coming soon.
 <a name="team"></a>
 <div class="main-section">
 
-# Team
+# Organizers
 
 </div>
 
@@ -149,6 +88,15 @@ Coming soon.
   <div class="caption"><a href="http://twitter.com/aidanf">@aidanf</a></div>
   </li>
 </ul>
+
+<hr/>
+
+<a name="contact"></a>
+<div class="main-section">
+# Code of Conduct
+</div>
+
+All attendees are required to adhere to our <a href="http://confcodeofconduct.com/">Code of Conduct</a>.
 
 <hr/>
 
