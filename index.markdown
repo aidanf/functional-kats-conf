@@ -102,26 +102,26 @@ All attendees are required to adhere to our <a href="http://confcodeofconduct.co
 
 <a name="contact"></a>
 <div class="main-section">
-
 # Contact
-
 </div>
 
-<div class="contact">
-<a href="#"><i class="fa fa-envelope"></i> <span id="my-email">please enable javascript to view</span></a><br/>
-    <a href="http://www.twitter.com/functionalKats"><i class="fa fa-twitter-square">@functionalKats</i></a>
+<div id="wufoo-r1uvlb8y1a5gv6p">
+Fill out my <a href="https://windmilllabs.wufoo.com/forms/r1uvlb8y1a5gv6p">online form</a>.
 </div>
-
-<p>TODO - proper email address here?</p>
-
-<script>
-$('#my-email').html(function(){
-var e = "hello";
-var a = "@";
-var d = "functionalkats";
-var c = ".com";
-var h = 'mailto:' + e + a + d + c;
-$(this).parent('a').attr('href', h);
-return e + a + d + c;
-});
-</script>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var r1uvlb8y1a5gv6p;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'windmilllabs',
+'formHash':'r1uvlb8y1a5gv6p',
+'autoResize':true,
+'height':'454',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { r1uvlb8y1a5gv6p = new WufooForm();r1uvlb8y1a5gv6p.initialize(options);r1uvlb8y1a5gv6p.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
