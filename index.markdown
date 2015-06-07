@@ -19,6 +19,17 @@ We are keeping the ticket prices super low (around &euro;30) so that everyone in
 If you're interested in sponsoring us please <a href="#contact">get in touch</a>.
 </div>
 
+<a name="cpf"></a>
+<div class="main-section">
+# Call for papers
+</div>
+
+The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
+
+<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
+
+<hr/>
+
 <a name="speakers"></a>
 <div class="main-section">
 # Speakers
@@ -34,17 +45,6 @@ If you're interested in sponsoring us please <a href="#contact">get in touch</a>
   <div class="caption">You? Our call for papers is currently open.</div>
   </li>
 </ul>
-
-<a name="cpf"></a>
-<div class="main-section">
-# Call for papers
-</div>
-
-The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
-
-<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
-
-<hr/>
 
 <a name="schedule"></a>
 <div class="main-section">
