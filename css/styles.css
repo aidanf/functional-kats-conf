@@ -55,3 +55,13 @@ h3 {
 .main-section {
   background-color:#fbeeca;
 }
+
+.close-cfp {
+  background-color:#ae1b1f !important;
+  width: 70%;
+  border: solid #fbeeca 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  color: white;
+}

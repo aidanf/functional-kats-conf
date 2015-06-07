@@ -2,6 +2,8 @@
 layout: default
 title: Function Kats Conference
 ---
+<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
+
 <a name="what"></a>
 <div class="panel">
 Kats Conference is a Functional Programming conference that will take place in Dublin on <b>September 12, 2015</b>.<br>
@@ -39,6 +41,8 @@ If you're interested in sponsoring us please <a href="#contact">get in touch</a>
 </div>
 
 The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
+
+<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
 
 <hr/>
 
@@ -111,6 +115,7 @@ All attendees are required to adhere to our <a href="http://confcodeofconduct.co
 <div class="main-section">
 # Contact
 </div>
+<div>Twitter: <a href="https://twitter.com/functionalkats">@functionalkats</a>. Hashtag: <a href="https://twitter.com/search?q=katsconf&src=typd">#katsconf</a></div>
 
 <div id="wufoo-r1uvlb8y1a5gv6p">
 Fill out my <a href="https://windmilllabs.wufoo.com/forms/r1uvlb8y1a5gv6p">online form</a>.
