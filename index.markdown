@@ -87,6 +87,10 @@ Coming soon.
   <img src="images/avatars/aidanf.jpeg">
   <div class="caption"><a href="http://twitter.com/aidanf">@aidanf</a></div>
   </li>
+  <li>
+  <img src="images/avatars/paddy.jpg">
+  <div class="caption"><a href="http://twitter.com/paddymcdonald">@paddymcdonald</a></div>
+  </li>
 </ul>
 
 <hr/>
