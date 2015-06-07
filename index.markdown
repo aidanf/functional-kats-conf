@@ -46,6 +46,22 @@ The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwax
   </li>
 </ul>
 
+<a name="venue"></a>
+<div class="main-section">
+# Venue
+</div>
+<div id="venue">
+  <div>
+    <strong>Intercom</strong></br>
+    2nd Floor<br>
+    Stephen Court; 18-21 St Stephen's Green<br>
+    Dublin 2<br>
+  </div>
+  <div id="map-canvas" class="flex-video"></div>
+</div>
+
+<hr/>
+
 <a name="schedule"></a>
 <div class="main-section">
 # Schedule
@@ -137,3 +153,23 @@ var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') retu
 try { r1uvlb8y1a5gv6p = new WufooForm();r1uvlb8y1a5gv6p.initialize(options);r1uvlb8y1a5gv6p.display(); } catch (e) {}};
 var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 })(document, 'script');</script>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map-canvas');
+    var mapOptions = {
+      center: new google.maps.LatLng(53.339371, -6.257495),
+      zoom: 17,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(53.339371, -6.257495),
+      title:"Intercom, Dublin"
+    });
+    marker.setMap(map);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
