@@ -50,12 +50,12 @@ The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwax
 <div class="main-section">
 # Venue
 </div>
-<div id="venue">
+<div>
   <div>
     <strong>Intercom</strong></br>
     2nd Floor<br>
     Stephen Court; 18-21 St Stephen's Green<br>
-    Dublin 2<br>
+    Dublin 2. Ireland<br>
   </div>
   <div id="map-canvas" class="flex-video"></div>
 </div>
@@ -93,7 +93,7 @@ Coming soon.
 <a name="team"></a>
 <div class="main-section">
 
-# Organizers
+# Team
 
 </div>
 
