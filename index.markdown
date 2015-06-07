@@ -58,7 +58,10 @@ Coming soon.
 </div>
 
 <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
-<p>We're currently looking for sponsors. Please get in touch with one of the organizers if you're interested in sponsoring.</p>
+<p>We're currently looking for more sponsors. Please get in touch with one of the organizers if you're interested in sponsoring.</p>
+  <li>
+    <img src="images/sponsors/intercom-logo_large.png" style="padding: 10px;">
+  </li>
   <li>
   <img src="http://placehold.it/600x200&text=Sponsor+Us">
   <div class="caption">Your Company Name here?</div>
