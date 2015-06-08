@@ -35,13 +35,19 @@ The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwax
 # Speakers
 </div>
 
-<ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-2">
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
   <li>
-  <img src="images/avatars/edwin-hp.jpg">
+  <img src="images/avatars/edwin_400.png">
   <div class="caption"><a href="https://twitter.com/edwinbrady">Edwin Brady</a>. Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/">Idris</a>.</div>
   </li>
+
   <li>
-  <img src="http://placehold.it/200x147&text=You!">
+  <img src="images/avatars/felienne.jpg">
+  <div class="caption"><a href="https://twitter.com/felienne">Felienne Hermans</a>. Assistant professor at Delft University of Technology, founder of <a href="http://www.infotron.nl/">Infotron</a>, and organiser of <a href="http://joyofcoding.org/">Joy of Coding</a>.</div>
+  </li>
+
+  <li>
+  <img src="http://placehold.it/400x400&text=You!">
   <div class="caption">You? Our call for papers is currently open.</div>
   </li>
 </ul>
