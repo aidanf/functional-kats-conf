@@ -5,82 +5,96 @@ title: Function Kats Conference
 
 <header>
   <img src="images/logo.png" id="logo" />
-  <div class='jumbotron' id='what'>
+  <div class="alert alert-danger" role="alert">
+  IMPORTANT DATES: <a class='alert-link' href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm.
+</div>
+
+  <div class='box' id='what'>
     <p class='lead'>
-      Kats Conference is a <strong>Functional Programming</strong> conference that will take place in <strong>Dublin</strong> on <strong>September 12, 2015</strong>.<br /><br />
-      The main goal of the conference is to have a great time learning about Functional Programming.<br /><br />
+      Kats Conference is a <strong>Functional Programming</strong> conference that will take place in <strong>Dublin</strong> on <strong>September 12, 2015</strong>.
+    </p>
+    <p>
+      The main goal of the conference is to have a great time learning about Functional Programming.<br />
       A range of talks, lighting talks, and workshops will be organised on the day.<br /><br />
       Kats Conference encourages local participation, so if you are in Ireland please submit a talk or workshop. While writing your proposal keep in mind that this is a day for learning, so focus on what the attendees (and also yourself) will learn from your talk.<br /><br />
-      We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.<br /><br />
+      We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.<br />
       If you're interested in sponsoring us please <a href="#contact">get in touch</a>.
     </p>
   </div>
 </header> 
 
-<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
 
-
-<a name="cpf"></a>
-<div class="main-section">
-# Call for papers
-</div>
-
-The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
-
-<div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
-
-<hr/>
-
-<a name="speakers"></a>
-<div class="main-section">
-# Speakers
-</div>
-
-<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-  <li>
-  <img src="images/avatars/edwin_400.png">
-  <div class="caption"><a href="https://twitter.com/edwinbrady">Edwin Brady</a>. Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/">Idris</a>.</div>
-  </li>
-
-  <li>
-  <img src="images/avatars/felienne.jpg">
-  <div class="caption"><a href="https://twitter.com/felienne">Felienne Hermans</a>. Assistant professor at Delft University of Technology, founder of <a href="http://www.infotron.nl/">Infotron</a>, and organiser of <a href="http://joyofcoding.org/">Joy of Coding</a>.</div>
-  </li>
-
-  <li>
-  <img src="http://placehold.it/400x400&text=You!">
-  <div class="caption">You? Our call for papers is currently open.</div>
-  </li>
-</ul>
-
-<a name="venue"></a>
-<div class="main-section">
-# Venue
-</div>
-<div>
-  <div>
-    <strong>Intercom</strong></br>
-    2nd Floor<br>
-    Stephen Court; 18-21 St Stephen's Green<br>
-    Dublin 2. Ireland<br>
+<section>
+  <h2>Call For Papers</h2>
+  <p>
+    The <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">call for papers is currently open</a>. Please submit a talk!
+  </p>
+  <div class="alert alert-danger" role="alert">
+    IMPORTANT DATES: <a class='alert-link' href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm.
   </div>
-  <div id="map-canvas" class="flex-video"></div>
-</div>
-
-<hr/>
-
-<a name="schedule"></a>
-<div class="main-section">
-# Schedule
-</div>
-
-Coming soon.
-
-<hr/>
+</section>
 
 
-<a name="sponsors"></a>
-<div class="main-section">
+<section>
+  <h2>Speakers</h2>
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="images/avatars/edwin_400.png">
+        <div class="caption">
+          <h3><a href="https://twitter.com/edwinbrady">Edwin Brady</a></h3>
+          <p>Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/">Idris</a>.
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="images/avatars/felienne.jpg">
+        <div class="caption">
+          <h3><a href="https://twitter.com/felienne">Felienne Hermans</a></h3>
+          <p>Assistant professor at Delft University of Technology, founder of <a href="http://www.infotron.nl/">Infotron</a>, and organiser of <a href="http://joyofcoding.org/">Joy of Coding</a>.
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+      <img src="http://placehold.it/400x400&text=You!">
+      <div class="caption">
+          <h3>You?</h3>
+          <p>Our call for papers is currently open.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.row -->
+</section>  
+
+
+<section id='venue'>
+  <h2>Venue</h2>
+  <div class="row">
+    <div class="col-sm-12 col-md-9">
+      <div id="map-canvas" class="flex-video"></div>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <address>
+        <strong>Intercom</strong></br>
+        2nd Floor<br>
+        Stephen Court; 18-21 St Stephen's Green<br>
+        Dublin 2. Ireland<br>
+      </address>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Speakers</h2>
+  <p>
+    Coming soon.
+  </p>
+</section>
+
+
+<section>
 # Sponsors
 </div>
 
@@ -176,6 +190,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
       title:"Intercom, Dublin"
     });
     marker.setMap(map);
+
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);

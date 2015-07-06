@@ -1,3 +1,9 @@
-body { padding-top: 70px; }
+
 #logo {display:block; margin:0 auto;height:300px;width:auto;}
 .container .jumbotron {padding:20px;background:none;border:1px solid #eee;border-radius:3px;}
+#map-canvas{
+  display:block;
+  margin:0 auto;
+  height:300px;
+  border:1px solid #ccc;
+}
