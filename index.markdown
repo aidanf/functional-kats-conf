@@ -40,7 +40,7 @@ title: Function Kats Conference
   <div class="row">
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="images/avatars/edwin_400.png">
+        <img src="images/avatars/edwin_400.png" />
         <div class="caption">
           <h3><a href="https://twitter.com/edwinbrady">Edwin Brady</a></h3>
           <p>Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/">Idris</a>.
@@ -49,7 +49,7 @@ title: Function Kats Conference
     </div>
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="images/avatars/felienne.jpg">
+        <img src="images/avatars/felienne.jpg" />
         <div class="caption">
           <h3><a href="https://twitter.com/felienne">Felienne Hermans</a></h3>
           <p>Assistant professor at Delft University of Technology, founder of <a href="http://www.infotron.nl/">Infotron</a>, and organiser of <a href="http://joyofcoding.org/">Joy of Coding</a>.
@@ -58,7 +58,7 @@ title: Function Kats Conference
     </div>
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
-      <img src="http://placehold.it/400x400&text=You!">
+      <img src="http://placehold.it/400x400&text=You!" />
       <div class="caption">
           <h3>You?</h3>
           <p>Our call for papers is currently open.</p>
@@ -95,21 +95,24 @@ title: Function Kats Conference
 
 
 <section>
-# Sponsors
-</div>
-
-<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
-<p>We're currently looking for more sponsors. Please get in touch with one of the organizers if you're interested in sponsoring.</p>
-  <li>
-    <img src="images/sponsors/intercom-logo_large.png" style="padding: 10px;">
-  </li>
-  <li>
-  <img src="http://placehold.it/600x200&text=Sponsor+Us">
-  <div class="caption">Your Company Name here?</div>
-  </li>
-</ul>
-
-<hr/>
+  <h2>Sponsors</h2>
+  <p>We're currently looking for more sponsors. Please get in touch with one of the organizers if you're interested in sponsoring.</p>
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <div class="thumbnail">
+        <img src="images/sponsors/intercom-logo_large.png" style="padding: 10px;" />  
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="thumbnail">
+        <img src="http://placehold.it/600x200&text=Sponsor+Us" />
+        <div class="caption">
+          <p>Your Company Name Here?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <a name="team"></a>
 <div class="main-section">
