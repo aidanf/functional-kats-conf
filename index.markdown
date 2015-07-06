@@ -2,22 +2,23 @@
 layout: default
 title: Function Kats Conference
 ---
+
+<header>
+  <img src="images/logo.png" id="logo" />
+  <div class='jumbotron' id='what'>
+    <p class='lead'>
+      Kats Conference is a <strong>Functional Programming</strong> conference that will take place in <strong>Dublin</strong> on <strong>September 12, 2015</strong>.<br /><br />
+      The main goal of the conference is to have a great time learning about Functional Programming.<br /><br />
+      A range of talks, lighting talks, and workshops will be organised on the day.<br /><br />
+      Kats Conference encourages local participation, so if you are in Ireland please submit a talk or workshop. While writing your proposal keep in mind that this is a day for learning, so focus on what the attendees (and also yourself) will learn from your talk.<br /><br />
+      We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.<br /><br />
+      If you're interested in sponsoring us please <a href="#contact">get in touch</a>.
+    </p>
+  </div>
+</header> 
+
 <div class="close-cfp"> IMPORTANT DATES: <a href="https://docs.google.com/forms/d/1-LioOLgQsM-W_FVs921_F8qbF4APkCbwaxKUd-jtmBc/viewform">Call for Papers</a> closes on June 20th 2015 at 11.00pm</div>
 
-<a name="what"></a>
-<div class="panel">
-Kats Conference is a Functional Programming conference that will take place in Dublin on <b>September 12, 2015</b>.<br>
-
-The main goal of the conference is to have a great time learning about Functional Programming.<br>
-
-A range of talks, lighting talks, and workshops will be organised on the day.<br>
-
-Kats Conference encourages local participation, so if you are in Ireland please submit a talk or workshop. While writing your proposal keep in mind that this is a day for learning, so focus on what the attendees (and also yourself) will learn from your talk.<br><br>
-
-We are keeping the ticket prices super low (around &euro;30) so that everyone in the community can take part.<br>
-
-If you're interested in sponsoring us please <a href="#contact">get in touch</a>.
-</div>
 
 <a name="cpf"></a>
 <div class="main-section">

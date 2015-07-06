@@ -2,39 +2,31 @@
 layout: base
 ---
 
-<div class="row">
-  <div class="large-10 medium-10 small-10 small-centered columns">
-
-    <div class="row">
-      <div class="contain-to-grid">
-        <nav class="top-bar" data-topbar role="navigation">
-          <ul class="title-area">
-            <li class="name"><!-- Leaving this empty to remove the title --></li>
-            <li class="toggle-topbar menu-icon"><a href="#"><!-- Leaving this empty to remove 'Menu' --></a></li>
-          </ul>
-          <section class="top-bar-section">
-            <ul class="right">
-              <li><a href="#speakers">Speakers</a></li>
-              <li><a href="#venue">Venue</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-              <li><a href="#sponsors">Sponsors</a></li>
-              <li><a href="#team">Team</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </section>
-        </nav>
-      </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Functional Kats Conference</a>
     </div>
-
-    <div class="row">
-      <div class="small-centered small-8 large-6 large-centred medium-6 medium-centred columns">
-        <img src="images/logo.png" id="logo"/>
-      </div>
-    </div>
-    <div class="row">
-        {{ content }}
-    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class='active'><a href="#speakers">Speakers</a></li>
+        <li><a href="#venue">Venue</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
   </div>
-</div>
+</nav>
 
-<hr/>
+<div class="container">
+  {{ content }}
+</div><!-- /.container -->
+
