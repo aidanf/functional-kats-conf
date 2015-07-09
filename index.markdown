@@ -142,7 +142,7 @@ All attendees are required to adhere to our <a href="http://confcodeofconduct.co
 <div id="wufoo-r1uvlb8y1a5gv6p">
 Fill out my <a href="https://windmilllabs.wufoo.com/forms/r1uvlb8y1a5gv6p">online form</a>.
 </div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>. .. ..</div>
 <script type="text/javascript">var r1uvlb8y1a5gv6p;(function(d, t) {
 var s = d.createElement(t), options = {
 'userName':'windmilllabs',
