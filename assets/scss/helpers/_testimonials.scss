@@ -1,0 +1,24 @@
+.testimonials-wrapper { background-color: #fff; padding-bottom: 130px; position: relative;
+  .testimonials {
+    .cycle-pager { left: 0px; }
+    h2 { color: $color-dark; font-weight: lighter; padding-bottom: 30px; }
+    .testimonials-inner {
+      blockquote { border-left: none; padding: 0px 0px 0px 0px; }
+      p { color: $color-dark; font-family: $font-family-default; font-style: italic; font-weight: lighter; line-height: 30px; padding: 40px 0px 0px; text-align: center; }
+      small { color: $color-primary; font-family: $font-family-default; font-size: 18px; font-weight: bold; padding: 20px 0px 0px; text-align: center;}
+
+      .item { float: none; margin: 0px auto; }
+      .outer-border { @include transition(all 0.2s ease); @include border-radius(50%); @include box-sizing(border-box); border: 10px solid rgba(0,0,0,0.05);
+        height: 170px; width: 170px;
+      }
+      .inner-border { @include transition(all 0.2s ease); @include box-sizing(border-box); @include border-radius(50%); border: 5px solid $color-dark;
+        height: 150px; width: 150px;
+        &:hover { border: 0px solid white; height: 150px; width: 150px;}
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .testimonials-wrapper .testimonials .testimonials-inner .testimonials-image	{ margin: 0px auto; width: 170px; }
+}

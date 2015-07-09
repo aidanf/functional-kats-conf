@@ -1,0 +1,63 @@
+.navigation {
+  .navbar { position: fixed;
+    .navbar-inner { @include box-shadow(0px 0px 2px rgba(0, 0, 0, 0.1)); @include border-radius(0px); background-color: rgba(255, 255, 255, .9); background-image: none; border: none; min-height: 40px; padding-left: 0px; padding-right: 0px;
+      .icon-bar { background-color: $color-dark; }
+      .nav {
+        .active {
+          a { @include box-shadow(none); background-color: transparent; color: none; text-decoration: none; }
+        }
+      }
+    }
+  }
+
+  .logo {
+    a { color: rgba(0,0,0,0.8); line-height: 20px; float: left; font-family: $font-family-default; font-size: 24px; font-style: italic; font-weight: bold; line-height: 50px; }
+    a, a:hover { text-decoration: none; outline: none; }
+    .logo-icon { color: rgba(0, 0, 0, 0.506); float: left; font-size: 55px; line-height: 45px; width: 50px; }
+  }
+
+  .nav { float: right; font-family: $font-family-default;
+    a {
+      &:link { color: rgba(0,0,0,0.6); font-family: $font-family-default; font-size: 14px; font-weight: normal; text-decoration: none; }
+      &:visited { color: rgba(0,0,0,0.6); }
+      &:focus { outline: none; outline-offset: 0px; }
+    }
+
+    li { float: left; line-height: 27px;
+      a { @include text-shadow(none); @include transition(all 0.1s ease); padding-left: 25px; padding-right: 25px; background-color: transparent;
+        &:hover { border-bottom: 3px solid rgba(255, 126, 91, 0.5); background-color: transparent; color: rgba(0, 0, 0, .9); }
+      }
+      &.active {
+        a { border-bottom: 3px solid $color-primary; background-color: transparent; color: rgba(0, 0, 0, .9); }
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .navigation {
+    .navbar {
+      .navbar-inner { padding: 0px;
+        .nav { float: none; margin: 0px;
+          li { display: block; float: none; line-height: 30px; text-align: right;
+            a { @include text-shadow(none); @include transition(all 0.1s ease); border: 0px; border-right: 3px solid transparent; margin: 0px; padding-left: 8px; padding-right: 8px; background-color: transparent;
+              &:hover { border-right: 3px solid rgba(255, 126, 91, 0.5); background-color: transparent; color: rgba(0, 0, 0, .9); }
+            }
+            &.active {
+              a { border-right: 3px solid $color-primary; background-color: transparent; color: rgba(0, 0, 0, .9); }
+            }
+            &:last-child {
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+        .btn { @include box-shadow(none); @include text-shadow(none); background-image: none; color: transparent; cursor: pointer; display: inline-block; font-size: 14px; line-height: 20px; text-align: center; vertical-align: middle; }
+        .btn, .btn-group { margin-top: 7px; }
+        .btn-navbar { @include box-shadow(none); background-color: #262930; background-image: none; border: none; color: #fff; float: right; margin-left: 5px; margin-right: 10px; padding: 10px 12px; text-shadow: none;
+          &:hover, &:focus, &:active, &.active, &.disabled, &[disabled] { background-color: #000000; color: #fff; }
+        }
+      }
+    }
+  }
+}

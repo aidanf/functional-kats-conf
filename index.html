@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aviators - byaviators.com">
+
+    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="assets/js/rs-plugin/css/fullwidth.css" type="text/css">    
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href="assets/icons/pictopro-normal/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/icons/pictopro-outline/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/infine.css" type="text/css">
+
+    <!--[if lt IE 9]>
+       	<link rel="stylesheet" id="ie8-css"  href="assets/css/ie8.css" type="text/css" media="all">
+	<![endif]-->
+
+	<title>Kats Conf 15</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+
+<div class="navigation">
+    <div class="navbar navbar-fixed-top" role="navigation">
+        <div class="navbar-inner">
+            <div class="container">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="logo" style="float:left;">
+                    <img src="assets/pictures/functional-kats-logo.png">
+                </div><!-- /.logo -->
+
+                <div class="navbar-collapse collapse" id="main-navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#nav-header">Home</a></li>
+                        <li><a href="#nav-speakers">Speakers</a></li>
+                        <li><a href="#nav-pricing">Tickets</a></li>
+                        <li><a href="#nav-team">Team</a></li>
+                        <li><a href="#nav-sponsors">Sponsors</a></li>
+                        <li><a href="#nav-contact">Venue &amp; Contact</a></li>
+                    </ul>
+                </div><!-- /.main-navigation -->
+            </div><!-- /.container -->
+          </div><!-- /.navbar-inner -->
+    </div><!-- /.main-navigation -->
+</div><!-- /.navigation -->
+
+<div id="nav-header" class="header-wrapper">
+    <div class="header">
+
+        <div class="fullwidthbanner-container">         
+           <div class="fullwidthbanner">
+                <ul class="unstyled">
+                    <li class="first-slide" data-transition="fade">
+                        <img src="assets/pictures/background-conference-1.jpg" data-fullwidthcentering="on">
+
+                        <div class="caption sfr caption-main" data-x="center" data-y="200" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
+                            <div class="header-item">
+                                <div>
+                                    <h1>Kats Conf 15</h1>
+                                    <h4>12th September 2015</h4>
+                                </div><!-- /.title -->
+                            </div><!-- /.header-item -->
+
+                            <div class="countdown countdown-container container">
+                                <div class="clock row">
+                                    <div class="clock-item clock-days countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-days" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-days type-time">DAYS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-hours countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-hours" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-hours type-time">HOURS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-minutes countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-minutes type-time">MINUTES</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-seconds countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-seconds type-time">SECONDS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                                </div><!-- /.clock -->
+                            </div><!-- /.countdown-wrapper -->
+
+                        </div><!-- /.caption -->
+                    </li>
+
+                    <li class="second-slide" data-transition="fade">
+                        <img src="assets/pictures/background-conference-3.jpg" fullwidthcentering="on">
+
+                        <div class="caption sfr caption-main" data-x="center" data-y="300" data-speed="900" data-start="0" data-easing="easeOutBack">
+                            <div class="header-item">
+                                <div>
+                                    <h1>Get your<br>tickets to guarantee<br>your place</h1>                                    
+                                </div>
+                            </div><!-- /.header-item -->
+                        </div>
+
+                        <div class="caption fade" data-x="800" data-y="250" data-speed="100" data-start="0" data-easing="fade">
+                            <div class="last-seats"><a href="#nav-pricing" class="roll"><p>On sale<br>soon!</p></a></div>
+                        </div>                        
+                    </li>       
+                </ul><!-- /.revolution -->
+           </div>        
+        </div>
+    </div><!-- /.header -->
+</div><!-- /.header-wrapper -->
+
+
+
+<div id="nav-features" class="features-wrapper">
+    <div class="features">
+        <div class="features-inner container">
+            <div class="row">
+                <div class="item orange col-sm-4">
+                    <div class="row">
+                        <div class="wrapper-icon col-sm-3">
+							<div class="background-icon">
+								<i class="icon icon-outline-pointer"></i>
+                            </div><!-- /.background-icon -->
+                        </div><!-- /.wrapper-icon -->
+
+                        <div class="text-wrapper col-sm-9 pull-right">
+                            <h3>Kats in Dublin</h3>
+
+                            <p class="features-description">
+                                Kats Conf 15 is a conference taking place in Dublin who's main goal is for people to have a great time and learn about functional programming.
+                            </p>
+                        </div><!-- /.text-wrapper -->
+                    </div><!-- /.row -->
+                </div><!-- /.item -->
+
+                <div class="item blue col-sm-4">
+                    <div class="row">
+                        <div class="wrapper-icon col-sm-3 ">
+							<div class="background-icon">
+								<i class="icon icon-outline-microphone-stand"></i>
+                            </div><!-- /.background-icon -->
+                        </div><!-- /.wrapper-icon -->
+
+                        <div class="text-wrapper col-sm-9">
+                            <h3>3 Tracks</h3>
+                            <p class="features-description">
+                                With international and local expert speakers sharing their passion for programming there just aren't enough hours in the day, you'll be spoilt for choice.
+                            </p>
+                        </div><!-- /.text-wrapper -->
+                    </div><!-- /.row -->
+                </div><!-- /.item -->
+
+                <div class="item yellow col-sm-4">
+                    <div class="row">
+                        <div class="wrapper-icon col-sm-3">
+							<div class="background-icon">
+								<i class="icon icon-outline-group-three"></i>
+							</div><!-- /.background-icon -->
+                        </div><!-- /.wrapper-icon -->
+
+                        <div class="text-wrapper col-sm-9">
+                            <h3>Hands on Workshops</h3>
+
+                            <p class="features-description">
+                                They say the best form of learning is doing, and that's just what you'll do with a selection of top quality workshops on offer.
+                            </p>
+                        </div><!-- /.text-wrapper -->
+                    </div><!-- /.row -->
+                </div><!-- /.item -->
+            </div><!-- /.row -->
+        </div><!-- /.features-inner -->
+    </div><!-- /.features -->
+</div><!-- /.features-wrapper -->
+
+<div id="nav-speakers" class="speakers-wrapper">
+    <div class="container">
+        <h2>Great speakers with great topics</h2>
+        <h4>Hand selected from the Functional Programming community</h4>
+
+        <div class="speakers">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab-1" data-toggle="tab">Speakers</a></li>
+                <!-- <li><a href="#tab-2" data-toggle="tab">Track Two</a></li> -->
+                <!-- <li><a href="#tab-3" data-toggle="tab">Workshops</a></li> -->
+            </ul>
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade active in" id="tab-1">
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/felienne.jpg" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Felienne Hermans</p>
+                            <p class="company"><a href="https://twitter.com/felienne" target="_blank">@felienne</a></p>
+                            <p class="talk-title">A boardgame night with geeks</p>
+                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+							<div class="about">
+								<h4>About Felienne</h4>
+
+								<p>
+                                    Assistant professor at Delft University of Technology, founder of <a href="http://www.infotron.nl/" target="_blank">Infotron</a>, and organiser of <a href="http://joyofcoding.org/" target="_blank">Joy of Coding</a>.
+                                </p>
+							</div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/francesco.jpeg" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Francesco Cesarinni</p>
+                            <p class="company"><a href="https://twitter.com/FrancescoC" target="_blank">@FrancescoC</a></p>
+                            <p class="talk-title">Distribution and concurrency with Erlang</p>
+                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Francesco</h4>
+
+                                <p>
+                                    Founded Erlang Solutions, started the Erlang Factories, O'Reilly author, pointy haired boss, full time dad and part time uncle &amp; godfather.
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/amanda.png" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Amanda Laucher</p>
+                            <p class="company"><a href="https://twitter.com/pandamonial" target="_blank">@pandamonial</a></p>
+                            <p class="talk-title">Types vs Tests : An Epic Battle?</p>
+                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Amanda</h4>
+                                <p>
+                                    Eat. Drink. Code. Love.
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                                        <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/phil.jpg" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Phil Trelford</p>
+                            <p class="company"><a href="https://twitter.com/ptrelford" target="_blank">@ptrelford</a></p>
+                            <p class="talk-title">Beyonds lists: high performance data structures</p>
+                            <p class="time"><!-- <span class="time-start">10:00</span> - 10:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Phil</h4>
+
+                                <p>
+                                    Father figure
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/corinne-krych.jpg" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Corinne Krych</p>
+                            <p class="company"><a href="https://twitter.com/corinnekrych" target="_blank">@corinnekrych</a></p>
+                            <p class="talk-title">Will Swift rule the world?</p>
+                            <p class="time"><!-- <span class="time-start">08:00</span> - 08:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Corinne</h4>
+
+                                <p>
+                                    Dev for over 15 years (when you like it you don't really count), I never go too far from coding. Polyglot by heart (going beyond the JVM) and addicted to clean code</a>
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/jan.png" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Jan Macháček</p>
+                            <p class="company"><a href="https://twitter.com/honzam399" target="_blank">@honzam399</a></p>
+                            <p class="talk-title">Distributed Scala</p>
+                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Jan</h4>
+
+                                <p>
+                                    Pointy-haired engineer &amp; competitive cyclist
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/edwin.png" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Edwin Brady</p>
+                            <p class="company"><a href="https://twitter.com/edwinbrady" target="_blank">@edwinbrady</a></p>
+                            <p class="talk-title">Idris: Practical Software Verification with Dependent</p>
+                            <p class="time"><!-- <span class="time-start">08:00</span> - 08:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Edwin</h4>
+
+                                <p>
+                                    Lecturer in Computer Science at the University of St Andrews and designer of <a href="http://www.idris-lang.org/" target="_blank">Idris</a>.
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <div class="row speaker">
+                        <div class="col-sm-2">
+                            <div class="outer-border item">
+                                <div class="middle-border">
+                                    <img src="assets/pictures/yan.png" class="img-circle inner-border">
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-sm-7">
+                            <p class="name">Yan Cui</p>
+                            <p class="company"><a href="https://twitter.com/theburningmonk" target="_blank">@theburningmonk</a></p>
+                            <p class="talk-title">A tour of the language landscape</p>
+                            <p class="time"><!-- <span class="time-start">08:00</span> - 08:45 --></p>
+                        </div><!-- /.col-md-7 -->
+
+                        <hr>
+
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <h4>About Yan</h4>
+
+                                <p>
+                                    I build backend for social games @ GameSys. I like C#, F#, Erlang, Go, Dart, PostSharp and occasionally dabs with Clojure, Scala and Haskell.
+                                </p>
+                            </div><!-- /.about -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.speaker -->
+
+                    <h2>More to come ...</h2>
+
+                </div><!-- /.tab-1 -->
+
+                <div class="tab-pane fade" id="tab-2">
+
+
+                </div><!-- /.tab-2 -->
+
+                <div class="tab-pane fade" id="tab-3">
+
+                </div><!-- /.tab-3 -->
+            </div><!-- /.tab-content -->
+        </div><!-- /.speakers -->
+    </div><!-- /.container -->
+</div><!-- /.speakers-wrapper -->
+
+<div class="parallax-wrapper parallax-first">
+	<div class="parallax">
+		<div class="inner">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<span></span>
+					</div><!-- /.span12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.inner -->
+	</div><!-- /.parallax -->
+</div><!-- /.parallax-wrapper -->
+
+<div id="nav-pricing" class="pricing-wrapper">
+    <div class="pricing">
+        <div class="pricing-inner">
+			<div class="container has-options">
+				<h2>Buy your ticket ... soon</h2>
+				<h4>We're nearly ready</h4>
+								
+				<div class="tab-content">
+					<div class="tab-pane fade" id="tab-1-pricing">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-6">
+									<div class="circle">
+										<div class="content">
+											<p class="price">€40</p>
+											<ul class="span3">
+												<li>One day ticket</li>
+												<li>Kats Conf 15</li>
+											</ul>
+
+											<a class="btn btn-buy">Buy now</a>
+										</div><!-- /.content -->
+									</div><!-- /.circle -->
+								</div><!-- /.span4  -->
+
+								<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-6">
+									<div class="circle">
+										<div class="content best-offer">
+											<p class="price">€50</p>
+
+											<ul class="span3">
+												<li>Two day ticket</li>
+												<li>Erlang Factory Lite</li>
+												<li>Kats Conf 15</li>
+											</ul>
+
+											<a class="btn btn-buy">Buy now</a>
+											<div class="bubble">
+                                                <p>Best Offer</p>
+                                            </div><!-- /.bubble -->
+										</div><!-- /.content -->
+									</div><!-- /.circle -->
+								</div><!-- /.circle-2 -->
+
+							</div><!-- /.row -->
+						</div><!-- /.container -->
+					</div><!-- /.tab-1 -->
+					
+					<div class="tab-pane fade in active" id="tab-2-pricing">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="square">
+										<div class="content">
+											<p class="price">€25<sup></sup></p>
+
+											<ul class="item">
+												<li>One Day ticket</li>
+												<li>Kats Conf</li>
+                                                <li>Limited availability ticket</li>
+											</ul>
+											<a class="btn btn-buy" href="https://www.eventbrite.co.uk/e/kats-conf-15-tickets-5555370262">Buy now</a>
+
+                                            <div class="bubble">
+                                                <p>Early Kat</p>
+                                            </div><!-- /.bubble -->
+
+										</div><!-- /.content -->
+									</div><!-- /.square -->
+								</div><!-- /.span3 -->
+
+								<div class="col-sm-3">
+									<div class="square">
+										<div class="content">
+											<p class="price">€30<sup></sup></p>
+
+											<ul class="item">
+												<li>One Day Ticket</li>
+												<li>Kats Conf</li>
+											</ul>
+
+											<a class="btn btn-buy" href="https://www.eventbrite.co.uk/e/kats-conf-15-tickets-5555370262">Buy now</a>
+											
+										</div><!-- /.content -->
+                                    </div><!-- /.square -->
+								</div><!-- /.span3 -->
+
+								<div class="col-sm-3">
+									<div class="square">
+										<div class="content best-offer">
+											<p class="price">€50<sup></sup></p>
+											<ul class="item">
+												<li>Two day ticket</li>
+												<li>Erlang Factory Lite</li>
+												<li>Kats Conf</li>
+											</ul>
+											<a class="btn btn-buy" href="https://www.eventbrite.co.uk/e/kats-conf-15-tickets-5555370262">Buy now</a>
+
+                                            <div class="bubble">
+                                                <p>Combo Deal</p>
+                                            </div><!-- /.bubble -->
+
+                                        </div><!-- /.content -->
+                                    </div><!-- /.square -->
+								</div><!-- /.square-3 -->
+
+								<div class="col-sm-3">
+									<div class="square">
+										<div class="content">
+											<p class="price">€???<sup></sup></p>
+
+											<ul class="item">
+												<li>Diversity Support Donation</li>
+											</ul>
+
+											<a class="btn btn-buy" href="https://www.eventbrite.co.uk/e/kats-conf-15-tickets-5555370262">Buy now</a>
+										</div><!-- /.content -->
+									</div><!-- /.square -->
+								</div><!-- /.span3 -->
+							</div><!-- /.row -->
+						</div><!-- /.container -->
+					</div><!-- /.tab-2 -->
+					
+					<div class="tab-pane fade" id="tab-3-pricing">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="square">
+										<div class="content">
+											<p class="price">399<sup>$</sup></p>
+											<ul class="item">
+												<li>One day ticket</li>
+												<li>Parking place</li>
+											</ul>
+											<a class="btn btn-buy">Buy now</a>
+										</div><!-- /.content -->
+                                    </div><!-- /.square -->
+								</div><!-- /.square-1 -->
+								<div class="col-sm-4">
+									<div class="square">
+										<div class="content best-offer">
+											<p class="price">599<sup>$</sup></p>
+											<ul class="item">
+												<li>Two day ticket</li>
+												<li>Free cathering</li>
+												<li>Parking place</li>
+											</ul>
+											<a class="btn btn-buy">Buy now</a>
+											
+											<div class="bubble"><p>Best Offer</p></div>
+                                        </div><!-- /.content -->
+                                    </div><!-- /.square -->
+								</div><!-- /.square-2 -->
+								<div class="col-sm-4">
+									<div class="square">
+										<div class="content">
+											<p class="price">999<sup>$</sup></p>
+
+											<ul class="item">
+												<li>Two day ticket</li>
+												<li>Free cathering</li>
+												<li>VIP sitting place</li>
+												<li>After party with speakers</li>
+											</ul>
+
+											<a class="btn btn-buy">Buy now</a>
+                                        </div><!-- /.content -->
+									</div><!-- /.square -->
+								</div><!-- /.square-3 -->
+							</div><!-- /.row-->
+						</div><!-- /.container -->
+					</div><!-- /.tab-3 -->
+				</div>
+			</div>
+        </div><!-- /.pricing-inner -->
+    </div>
+</div><!-- /.pricing-wrapper -->
+
+<div class="parallax-wrapper parallax-second">
+	<div class="parallax">
+		<div class="inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 clearfix">
+						<!-- <span class="parallax-title">Video Preview</span> -->
+						
+						<!-- <iframe class="video" src="http://player.vimeo.com/video/65669594"></iframe> -->
+					</div><!-- /.span12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.inner -->
+	</div><!-- /.parallax -->
+</div><!-- /.parallax-wrapper -->
+
+<hr>
+
+<div id="nav-team" class="container gallery">
+    <h2 class="page-header">Meet the team!</h2>
+
+    <ul class="row thumbnails">
+        <li class="col-md-offset-1 col-sm-2">
+            <div class="thumbnail">
+                <a href="http://twitter.com/silverspoon">
+                    <img src="assets/pictures/silverspoon.jpeg" alt="">
+                </a>
+                <h3>Andrea</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
+
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="http://twitter.com/josmasflores">
+                    <img src="assets/pictures/jos.jpeg" alt="">
+                </a>
+                <h3>Jos</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
+
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="http://twitter.com/aidanf">
+                    <img src="assets/pictures/aidanf.jpeg" alt="">
+                </a>
+                <h3>Aidan</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
+
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="http://twitter.com/timdrivendev">
+                    <img src="assets/pictures/tim.png" alt="">
+                </a>
+                <h3>Tim</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
+
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/bobjlong">
+                    <img src="assets/pictures/bob.jpeg" alt="">
+                </a>
+                <h3>Bob</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
+
+    </ul><!-- /.thumbnails -->
+</div><!-- /.container -->
+
+<div id="nav-sponsors" class="our-partners-wrapper">
+    <div class="our-partners container">
+        <div class="our-partners-inner">
+            <h2 class="page-header">Big thanks to our sponsors</h2>
+            <h3>Platinum sponsor</h3>
+            <div class="row">
+                <div class="col-sm-6 col-xs-6 col-xs-offset-3 center">
+                    <a href="http://www.aolplatforms.com/"><img class="our-partners-logo" src="assets/pictures/aol_platforms_blk.png" alt=""></a>
+                </div><!-- /.span3 -->
+
+            </div><!-- /.row -->
+                        <h3>Sponsors</h3>
+            <div class="row" >
+                <div class="col-sm-4 col-xs-4 center">
+                    <a href="https://www.intercom.io/"><img class="our-partners-logo" src="assets/pictures/intercom-logo_large.png" alt=""></a>
+                </div><!-- /.span3 -->
+
+                <div class="col-sm-4 col-xs-4 center">
+                    <a href="http://instil.co/"><img class="our-partners-logo" src="assets/pictures/instil.png" alt=""></a>
+                </div><!-- /.span3 -->
+
+                <div class="col-sm-4 col-xs-4 center">
+                    <a href="http://www.cmegroup.com/belfast"><img class="our-partners-logo" src="assets/pictures/cme-logo.png" alt=""></a>
+                </div><!-- /.span3 -->
+
+            </div><!-- /.row -->
+        </div><!-- /.our-partners-inner -->
+    </div><!-- /.our-partners -->
+</div><!-- /.our-partners-wrapper -->
+
+<div class="parallax-wrapper parallax-third">
+	<div class="parallax">
+		<div class="inner">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<span></span>
+					</div><!-- /.span12 -->
+				</div><!-- /.row-->
+			</div><!-- /.container -->
+		</div><!-- /.inner -->
+	</div><!-- /.parallax -->
+</div><!-- /.parallax-wrapper -->
+
+<div id="nav-contact" class="footer-wrapper">
+    <div class="footer container">
+        <div class="footer-inner">
+            <div class="row">
+                <div class="item col-md-4">
+                    <h2>Venue</h2>
+
+                    <address>
+                        <div class="icon icon-normal-pointer"></div>
+                        <div class="address-content">
+                            <span class="title"><strong>Intercom</strong></span>
+                            <p>2nd Floor</p>
+                            <p>Stephen Court; 18-21 St Stephen's Green</p>
+                            <p>Dublin 2. Ireland</p>
+                        </div>
+                    </address>
+
+                    <address>
+                        <div class="icon icon-normal-twitter"></div>
+                        <div class="address-content">
+                            <a href="https://twitter.com/functionalkats" class="e-mail">@functionalkats</a>
+                            <a href="https://twitter.com/search?q=katsconf" class="e-mail">#katsconf</a>
+                        </div>
+                        <br>
+                    </address>
+
+                    <address>
+                        <div class="icon icon-normal-map-pointer"></div>
+                        <div class="address-content">
+                            <a href="https://www.google.co.uk/maps/place/53%C2%B020%2721.7%22N+6%C2%B015%2727.0%22W/@53.339371,-6.257495,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en" class="btn btn-grey">Show on Google maps</a>
+                        </div>
+                    </address>
+                </div><!-- /.item -->
+
+                <div class="item col-md-8">
+                    <h2>Any questions? Drop us a note</h2>
+
+                    <form class="contact-form footer-form" method="post" action="https://getsimpleform.com/messages?form_api_token=f484921a100eefc2f3807ee4a5bcd6c3">
+                        <input type='hidden' name='redirect_to' value='#' />
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <input type="text" name="name" placeholder="Your name" required="required">
+                                        <span class="icon icon-normal-profile-male"></span>
+                                    </div><!-- /.controls -->
+                                </div><!-- /.control-group -->
+                            </div><!-- /.span4 -->
+
+                            <div class="col-sm-6">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <input type="email" name="email" placeholder="Your e-mail" required="required">
+                                        <span class="icon icon-normal-mail"></span>
+                                    </div><!-- /.controls -->
+                                </div><!-- /.control-group -->
+                            </div><!-- /.span4 -->
+                        </div><!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <textarea name="message" placeholder="Your message" required></textarea>
+                                        <span class="icon icon-normal-pencil"></span>
+                                    </div><!-- /.controls -->
+                                </div><!-- /.control-group -->
+                            </div><!-- /.span8 -->
+                        </div><!-- /.row -->
+
+                        <div class="form-actions">
+                            <input type="submit" class="btn btn-send col-md-3" value="Send">
+                        </div><!-- /.form-actions -->
+                    </form><!-- /.footer-form -->
+                </div><!-- /.item -->
+            </div><!-- /.row -->
+        </div><!-- /.footer-inner -->
+    </div><!-- /.footer -->
+
+    <div id="map"></div><!-- /#map -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row footer-bottom-wrapper">
+                <div class="copyright left">
+                    &copy; 2015 Copyright by Functional Kats
+                </div><!-- /.copyright -->
+
+                <div class="icons right">
+                    <a href="https://twitter.com/functionalkats" class="social-icon"><img src="assets/icons/icon-twitter.png" alt=""></a>
+                    <!-- <a href="#" class="social-icon"><img src="assets/icons/icon-facebook.png" alt=""></a> -->
+                    <!-- <a href="#" class="social-icon"><img src="assets/icons/icon-youtube.png" alt=""></a> -->
+                </div><!-- /.icons -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer bottom -->
+</div><!-- /.footer-wrapper -->
+
+
+<script type="text/javascript" src="assets/js/retina.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script type="text/javascript" src="assets/js/kinetic.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/placeholder.js"></script>
+<script type="text/javascript" src="assets/js/jquery.final-countdown.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.center.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.scrollVert.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle2.caption2.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+
+<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/collapse.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/dropdown.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/tab.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/transition.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/scrollspy.js"></script>
+
+<script type="text/javascript" src="assets/js/infine.js"></script>
+
+</body>
+</html>

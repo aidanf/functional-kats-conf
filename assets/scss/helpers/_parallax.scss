@@ -1,0 +1,53 @@
+.parallax-wrapper { padding: 80px 0px; text-align: center;
+  &.parallax-first { background: url(../pictures/parallax-bg-1.jpg) 50% 0 no-repeat fixed;  }
+  &.parallax-second { background: url(../pictures/parallax-bg-2.jpg) 50% 0 no-repeat fixed; }
+  &.parallax-third { background: url(../pictures/parallax-bg-3.jpg) 50% 0 no-repeat fixed; }
+
+  .parallax {
+    .inner {
+      .parallax-title { background-color: rgba(37,40,46,0.8); color: #fff; font-family: $font-family-default; font-size: 60px; font-weight: lighter; line-height: 75px; padding-left: 10px; padding-right: 10px;}
+    }
+    .video { clear: left; }
+    iframe { max-width: 100%; }
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .parallax-wrapper {
+    &.parallax-first { background: url(../pictures/parallax-bg-1.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-second { background: url(../pictures/parallax-bg-2.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-third { background: url(../pictures/parallax-bg-3.jpg) 0 0px no-repeat scroll !important; background-size: cover !important; }
+
+    .parallax {
+      .inner {
+        .parallax-title { font-size: 54px; }
+      }
+    }
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .parallax-wrapper {
+    &.parallax-first { background: url(../pictures/parallax-bg-1.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-second { background: url(../pictures/parallax-bg-2.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-third { background: url(../pictures/parallax-bg-3.jpg) 0 0px no-repeat scroll !important; background-size: cover !important; }
+
+    .parallax {
+      .inner {
+        .parallax-title { font-size: 46px; line-height: 56px; }
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .parallax-wrapper { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px;
+    &.parallax-first { background: url(../pictures/parallax-bg-1.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-second { background: url(../pictures/parallax-bg-2.jpg) 0 0 no-repeat scroll !important; background-size: cover !important; }
+    &.parallax-third { background: url(../pictures/parallax-bg-3.jpg) 0 0px no-repeat scroll !important; background-size: cover !important; }
+    .parallax {
+      .inner {
+        .parallax-title { font-size: 40px; line-height: 50px; }
+      }
+    }
+  }
+}

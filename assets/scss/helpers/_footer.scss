@@ -1,0 +1,103 @@
+.footer-wrapper { background-color: $color-dark; color: white; font-family: $font-family-default;
+  .btn { @include box-shadow(none); background-image: none; border: none; text-shadow: none; outline: none; }
+  .btn-grey { @include box-sizing(border-box); @include border-radius(5px); @include transition(all 0.1s ease); background-color: $color-darker; color: rgba(255,255,255, 0.8); font-family: $font-family-default; font-weight: bold; font-size: 18px; text-decoration: none; outline: none; line-height: 25px; padding: 10px 20px; position: relative;
+    &:hover { @include box-shadow(inset 0px 0px 0px 2px rgba(255, 255, 255, 0.2)); color: #fff; }
+    &:active { bottom: -1px; color: #fff; }
+  }
+
+  .footer {
+    .footer-inner {
+      p { font-size: 18px; font-weight: normal; margin: 0px;} //padding-left: 33px; }
+      h2 { font-weight: lighter; padding-bottom: 40px; text-align: left; }
+      ul { list-style-type: none; margin: 0px; }
+      li { line-height: 30px; font-weight: normal; margin-bottom: 30px; }
+      address { line-height: 30px; }
+
+      .icon { display: inline-block; font-size: 25px; margin-left: -5px; margin-top: 3px; vertical-align:top; width: 40px }
+      .address-content { display: inline-block;
+        .title { font-size: 18px; }
+        .e-mail { color: white; font-size: 18px; text-decoration: underline; outline: none; }
+        .e-mail-li { margin-bottom: 0px; }
+        .text { font-size: 18px; font-weight: normal; margin: 0px; }
+      }
+
+      form {margin: 0 0 20px; overflow: hidden;}
+      .footer-form {
+        input[type="email"], input[type="text"], textarea { @include border-radius(3px); @include box-sizing(border-box);
+          @include box-shadow(none); background-color: rgba(0, 0, 0,0.2); border: 2px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.7);
+          font-family: $font-family-default; font-size: 18px; padding: 8px 20px 10px 35px; resize: none; width:100%;
+          &:hover { border: 2px solid rgba(255, 255, 255, .2); }
+          &:focus { border: 2px solid rgba(255, 255, 255, .2); }
+        }
+        textarea { height: 210px; }
+
+        .control-group { margin-bottom: 30px; position: relative; }
+        .icon { color:rgba(255,255,255,0.2); display: inline; font-size:24px; left: 14px; margin-top: 10px; position: absolute; top: 0;}
+        .btn-send { @include border-radius(5px); @include transition(all 0.1s ease); background-color: $color-primary; color: white; float: right; font-family: $font-family-default; font-size: 18px; font-weight: bold; text-decoration: none; outline: none; padding: 15px 20px; position: relative;
+          &:hover { @include box-shadow(inset 0px 0px 0px 2px rgba(0, 0, 0, 0.2)); color: #fff; }
+          &:active { bottom: -1px; color: #fff; }
+        }
+
+        .form-actions { background-color: transparent; border-top: 0px; margin-bottom: 0px; margin-top: 0px; padding: 0px;}
+      }
+    }
+  }
+
+  .footer-bottom { background-color: rgba(0,0,0,0.1);  margin-top: 0px; padding-top: 30px; padding-bottom: 30px;
+    .footer-bottom-wrapper {display: table; height: 50px; width:100%; }
+    .btn-grey { margin-left: 20px; margin-right: 20px; }
+    .copyright { display: table-cell; vertical-align: middle; }
+    .icons { display: table-cell; text-align: right; vertical-align: middle; }
+    .social-icon { @include transition(all 0.2s ease); line-height: 40px; opacity:0.5; outline: none; padding-left: 3px; padding-right: 3px;
+      &:hover { opacity:1; }
+    }
+    .footer-navigation { text-align: right; padding-top: 10px;
+      a {
+        &:hover, &:focus { color: $color-primary; outline: none; outline-offset: 0px; padding: 0px 10px 0px 10px; text-decoration: none; }
+        &:last-child { padding-right: 0px; }
+      }
+      ul { margin: 0px 0px 12px 0px; padding: 0px;
+        li { display:inline; }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+  .footer-wrapper {
+    .footer {
+      .btn-grey { font-size: 14px; padding: 10px 10px; }
+      .footer-inner {
+        h2 { font-size: 28px; }
+        p { font-size: 14px; }
+        address { line-height: 24px; }
+
+        .title { font-size: 14px; }
+        .e-mail { font-size: 14px; }
+        .footer-form {
+          input[type="text"],
+          textarea { font-size: 16px; }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .footer-wrapper { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px;
+    .footer {
+      .footer-inner {
+        h2 { padding-bottom: 20px; padding-top: 30px; text-align: center; }
+        .footer-form {
+          .icon { left: 13px; }
+          .btn-send { float: none; margin-left: auto; margin-right: auto; }
+        }
+      }
+    }
+
+    .footer-bottom { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; text-align: center;      
+      .icons { float: none; margin-top: 20px; text-align: center; }
+      .btn-grey { margin-top: 15px; display: block }
+    }
+  }
+}

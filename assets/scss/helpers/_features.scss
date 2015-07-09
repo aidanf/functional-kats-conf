@@ -1,0 +1,77 @@
+.features-wrapper { background-color: $color-dark;
+  .features { background-color: rgba(0,0,0,0.1); padding: 70px 0px;
+    .features-inner {
+      h3 { line-height: 28px; margin: 15px 0px 10px 0px; font-weight: lighter; }
+
+      .background-icon { @include border-radius(50%); @include box-sizing(border-box); background-color: $color-dark; border: 2px solid rgba(255,255,255,0.1);
+        height: 67px; line-height: 66px; padding-top:4px; position: relative; text-align: center; width: 100%; }
+
+      .features-description { color: #fff; }
+
+      .icon {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; height: 55px; width: 55px;}
+
+      .orange {
+        h3 { color: #ff8d72; }
+        .icon { color: #ff8d72; font-size: 55px; }
+      }
+
+      .blue {
+        h3 { color: #69ccff; }
+        .icon { color: #69ccff; font-size: 55px; }
+      }
+
+      .yellow {
+        h3 { color: #ffd35c; }
+        .icon { color: #ffd35c; font-size: 55px; }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .features-wrapper {
+    .features {
+      .features-inner {
+        .background-icon { height: 51px; line-height: 57px; }
+        .orange .icon,
+        .blue .icon,
+        .yellow .icon { font-size: 40px; height: 40px; width: 40px;}
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .features-wrapper {
+    .features {
+      .features-inner {
+        .col-sm-3 { padding-right: 0;}
+        .background-icon { height: 47px; line-height: 39px; margin-top: 20px; }
+        .orange .icon,
+        .blue .icon,
+        .yellow .icon	 { font-size: 38px; height: 38px; width: 38px;}
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .features-wrapper { margin-left: -20px; margin-right: -20px;
+    .features { padding: 0px; padding-left: 20px; padding-right: 20px;
+      .features-inner {
+        .item { padding-bottom: 50px; text-align: center;
+          &:first-child {margin-top: 50px}
+        }
+        h3 { font-size: 28px; }
+        .wrapper-icon { margin: 0px 0px 0px 0px; padding: 0px; }
+        .background-icon { display: inline-block; height: 90px; width: 90px; line-height: 85px;}
+        .orange .icon,
+        .blue .icon,
+        .yellow .icon { font-size: 72px; height: 72px; width: 72px; }
+        .text-wrapper { text-align: center; margin-bottom: 10px;
+          p { margin: 0px auto; width: 80%; }
+        }
+      }
+    }
+  }
+}

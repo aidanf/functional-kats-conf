@@ -1,0 +1,33 @@
+.subscribe-wrapper { background-color: $color-dark;
+  .subscribe { background-color: rgba(0, 0, 0, .2);
+    h4 { color: #8ef58e; margin: 0px; padding: 15px; padding-bottom: 20px; z-index: 1; position:relative; }
+
+    form { margin: 0px 0px 50px; padding: 0px 0px; position: relative;
+      button { @include transition(all 0.1s ease); background-color: rgba(255, 255, 255, .05); border: 0px; border-radius: 50%; color: #93ff93;
+        font-size: 20px; height: 40px; line-height: 40px; margin: 0px; padding: 0px; position: absolute; right: 15px; text-align: center; top: 15px; width: 40px;
+        &:hover { background-color: #8ef58e; color: rgba(0,0,0,0.8)  }
+        span { height: 40px; line-height: 40px; margin: 0px; padding: 0px; vertical-align: top; width: 40px; }
+      }
+    }
+
+    .form { position: relative; z-index: 100; }
+
+    .subscription-field {
+      @include box-sizing(border-box); @include border-radius(50px); @include box-shadow(inset 0px 0px 0px 1px rgba(255,255,255,0.1));
+      background-color: rgba(255, 255, 255, .03); border: 8px solid rgba(0 ,0, 0, 0.35); height: 70px; color: rgba(255,255,255,0.7); float: none; font-family: $font-family-default;
+      font-size: 18px; text-indent: 20px; padding: 0px 6px; width: 100%;
+    }
+
+    .subscribe-background { background-color: #202329; @include border-radius(50px); margin-top: -20px; padding-top: 10px; }
+
+    input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus { @include box-shadow(inset 0px 0px 0px 1px rgba(255,255,255,0.2)); border: 8px solid rgba(0,0,0,0.5); }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .subscribe-wrapper { margin-left: -20px; margin-right: -20px;
+    .subscribe { padding-left: 20px; padding-right: 20px;
+      form button { right: 15px; }
+    }
+  }
+}

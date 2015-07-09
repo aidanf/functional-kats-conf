@@ -1,0 +1,120 @@
+.pricing-wrapper {
+  .pricing { background-color: #fff; font-family: $font-family-default;
+    .pricing-inner { padding-bottom: 110px;
+      h2 { color: $color-dark; font-weight: lighter; }
+      h4 { font-weight: normal; padding-bottom: 70px; }
+
+      .tab-content { overflow: visible; }
+      .price { color: #464646; font-size: 60px; font-weight: normal; padding: 70px 0px 30px 30px; text-align: center; }
+      .content {
+        &.best-offer { @include box-shadow(inset 0px 0px 0px 5px #6fb871); }
+        ul { list-style-type:none;  font-family: $font-family-standard; height: 110px; float: none; margin: 0px auto; text-align: center; width: 100%;
+          li { border-top: 1px solid #EFEFEF; line-height: 24px; margin-left: 30px; margin-right: 30px;
+            &:first-child { border-top: 0px; }
+          }
+        }
+      }
+      .circle { @include border-radius(50%); @include box-shadow(inset 0px 0px 10px 15px rgba(0, 0, 0, 0.04)); background-color: rgba(0, 0, 0, .05); height: 360px; padding: 20px; text-align: center;
+        .content { @include border-radius(50%); background-color: #fff; height: 320px; position: relative; text-align: center; }
+      }
+      .bubble { @include border-radius(50%); background-color: rgba(255, 211, 92, 0.953); font-size: 24px; height: 100px; position: absolute; right: 0px; top: -18px; width: 100px; }
+        p { font-weight: lighter; padding-left: 20px; padding-top: 28px; text-align: left;
+      }
+      .square { @include border-radius(20px); @include box-shadow(inset 0px 0px 10px 15px rgba(0, 0, 0, .04)); background-color: rgba(0,0,0,0.05); padding: 10px; text-align: center;
+        .content { @include border-radius(10px); background-color: #fff; position: relative; text-align: center;
+          ul { height: 130px; margin-bottom: 20px;}
+        }
+      }
+
+      .btn { @include box-shadow(none); @include text-shadow(none); background-image: none; border: none; }
+      .btn-buy { @include border-radius(5px); @include transition(all 0.1s ease); background-color: #6fb871; color: rgba(255,255,255,0.8);
+        font-family: $font-family-default; font-weight: bold; font-size: 18px; line-height: 25px; margin-bottom: 20px; outline: none; padding: 10px 40px;
+        position: relative; text-decoration: none;
+        &:hover { @include box-shadow(inset 0px 0px 0px 2px rgba(0, 0, 0, 0.2)); color: #fff; }
+        &:active { bottom: -1px; color: #fff; }
+      }
+
+      .nav-options { right: 20px; top: 130px; position: absolute; z-index: 999;
+        .icon-options { background-color: transparent !important; color: rgba(0, 0, 0, .5); font-size: 30px;
+          &:hover, &:focus { color: rgba(0, 0, 0, .8); }
+        }
+
+        ul { margin-right: -20px; margin-top: 10px;
+          &:before { border: 5px solid transparent; border-bottom-color: #EFEFEF; content: ''; display: block; height: 0px; position: absolute; top: -10px; right: 13px; width: 0px; }
+        }
+
+        .dropdown-menu { @include border-radius(2px); @include box-shadow(none); background-color: #EFEFEF; border: none; font-family: $font-family-standard; padding: 5px 0px;
+          .active a, .active a:focus, .active a:hover, a:hover, a:focus { 
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);  
+            background-color: #6fb871; background-image: none; 
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .pricing-wrapper {
+    .pricing {
+      .pricing-inner {
+        .price { font-size: 50px; padding: 40px 0px 10px 20px; }
+        .circle { height: 300px;
+          .content { height: 260px; }
+        }
+        .bubble { right: -33px; top: -38px; }
+        .square {
+          .content {
+            ul { height: 120px;  }
+          }
+        }
+        .btn-buy { padding: 10px 25px; }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .pricing-wrapper {
+    .pricing {
+      .pricing-inner {
+        li { line-height: 20px; font-size: 12px; }
+
+        .circle { height: 345px; margin-bottom: 20px;
+          .price { font-size: 40px; padding: 50px 0px 25px 20px; }
+          .content { height: 305px; }
+        }
+
+        .square { @include border-radius(10px); padding: 5px;
+          .price { font-size: 40px; padding: 30px 0px 15px 15px; }
+          .content { @include border-radius(5px);
+            ul { height: 100px; }
+          }
+        }
+
+        .btn-buy { padding: 10px 20px; font-size: 14px; }
+        .bubble { font-size: 18px; height: 70px; position: absolute; right: -28px; top: -28px; width: 70px;
+          p { padding-left: 12px; padding-top: 15px; }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .pricing-wrapper {
+    .pricing {
+      .pricing-inner { padding-bottom: 20px;
+        h2 { padding-top: 40px; }
+        h4 { padding-bottom: 20px; }
+        .nav-options { top: 180px; }
+        .circle { width: 300px; height: 300px; margin: 0px auto; margin-bottom: 30px;
+          .content { width: 260px; height: 260px;  }
+        }
+        .square { width: 300px; margin: 0px auto; margin-bottom: 30px;
+        }
+        .price { padding: 50px 0px 30px 30px; }
+      }
+    }
+  }
+}
