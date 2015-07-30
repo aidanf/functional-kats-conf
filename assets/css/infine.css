@@ -5887,6 +5887,17 @@ border:8px solid rgba(0,0,0,0.5)
 	font-family: "Open Sans", "Arial", sans-serif;
 	margin: 0px
 }
+
+.speakers-wrapper .talk-legend {
+	color: #ff7e5b;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
 .speakers-wrapper .nav-tabs {
 	border-bottom: 2px solid rgba(255,255,255,0.1);
 	margin-bottom: 30px
