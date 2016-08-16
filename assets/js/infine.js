@@ -2,26 +2,28 @@ $(document).ready(function() {
     scrollNavigation();
     var nowDate = new Date();
 
-    $('.countdown').final_countdown({
-        'start':    1436365447,
-        'end':      1442048400,
+    $('.countdown').each(function(index, countdown) {
+      $(countdown).final_countdown({
+        'start':    1442048400,
+        'end':      1487408400,
         'now':      nowDate.getTime() / 1000,
         seconds: {
-            borderColor: '#8ef58e',
-            borderWidth: '4'
+          borderColor: '#8ef58e',
+          borderWidth: '4'
         },
         minutes: {
-            borderColor: '#ff8d72',
-            borderWidth: '4'
+          borderColor: '#ff8d72',
+          borderWidth: '4'
         },
         hours: {
-            borderColor: '#69ccff',
-            borderWidth: '4'
+          borderColor: '#69ccff',
+          borderWidth: '4'
         },
         days: {
-            borderColor: '#ffd35c',
-            borderWidth: '4'
+          borderColor: '#ffd35c',
+          borderWidth: '4'
         }
+      });
     });
 
     if ($.fn.cssOriginal!=undefined) {
