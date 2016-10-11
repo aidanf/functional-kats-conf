@@ -1,4 +1,4 @@
 name: Functional Kats Conference
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 baseurl: /functional-kats-conf
