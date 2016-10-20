@@ -2,3 +2,5 @@ name: Functional Kats Conference
 markdown: redcarpet
 highlighter: rouge
 baseurl: /functional-kats-conf
+gems:
+  - jekyll-redirect-from
